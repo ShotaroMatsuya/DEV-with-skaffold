@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: cygnetops/worker-skaffold
+          image: shotaromatsuya/multi-worker
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
